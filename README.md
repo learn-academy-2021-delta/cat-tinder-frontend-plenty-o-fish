@@ -109,7 +109,12 @@ As a developer, I can use Reactstrap to create the footer UI -->
 
 <!-- s -->
 
-Testing with Jest Enzyme
-- Jest - built by Facebook
-- Enzyme - built by AirBnb (library agnostic) but always needs test runner (like Jest which acts as assertion library as well)
-        -- brings in added utilities and live rendering of REACT nodes
+
+
+<!-- As a developer, I can add Enzyme to my application. -->
+
+<!-- As a developer, I can add a file for Header.test.js and ensure the Header component is rendering correctly.
+
+As a developer, I can add a file for Footer.test.js and ensure the Footer component is rendering correctly. -->
+
+<!-- As a developer, I can add a file for NotFound.test.js and ensure the NotFound component is rendering correctly. -->
