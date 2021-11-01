@@ -1,12 +1,23 @@
 import React, { Component } from 'react'
 
-export default class FishNew extends Component {
+ class FishShow extends Component {
     render() {
         return (
-            <div>
-                <h3>I am the Show</h3>
-            </div>
+            <>
+                <h3>Fish Details</h3>
+                {this.props.fish &&
+                <> 
+                <p>{this.props.fish.name}</p>
+
+                <p>{this.props.fish.age}</p>
+
+                <p>{this.props.fish.enjoys}</p>
+                
+                </>
+    }
+            </>
         )
     }
 }
 
+export default FishShow
