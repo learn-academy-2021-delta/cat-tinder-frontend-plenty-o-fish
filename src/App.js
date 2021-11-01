@@ -28,12 +28,21 @@ import fish from './MockFish.js'
   
   render() {
     return (
-      
+    
 <Router>
   <Header/>
     <Switch>
     <Route exact path="/" component={Home} />
-    <Route path="/fishindex" component={FishIndex} />
+    <Route path="/fishindex" render={(props) => <FishIndex fish={this.state.fish}/>} />
+    
+          <Route
+            path="/fishshow/:id"
+            render={(props) => {
+              let id = props.match.params.id
+              let fish = this.state.fish.find(c => c.id === +id)
+              return <FishShow fish={fish} />
+            }}
+          />
     <Route path="/fishshow" component={FishShow} />
     <Route path="/fishnew" component={FishNew} />
     <Route path="/fishedit" component={FishEdit} />
