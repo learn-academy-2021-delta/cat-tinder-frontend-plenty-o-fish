@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
-// import { Card, CardTitle, Col } from 'reactstrap'
 
 class FishIndex extends Component {
   render() {
