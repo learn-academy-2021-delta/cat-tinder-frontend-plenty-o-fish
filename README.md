@@ -127,3 +127,16 @@ As a developer, I can pass the cat mock data in state to my index component -->
 <!-- As a user, I can see a page featuring all the information for one cat
 
 As a user, I can click on a cat name and be taken to a page that shows me all the information about that cat -->
+
+As a user, I can fill out a form to add a new cat
+
+As a developer, I can store the cat object in state
+
+As a developer, I can pass the cat object to App.js on submit and see the cat object logged in the console
+
+As a developer, I have test coverage on my new page
+
+As a user, I can be routed to the index page after I submit the new cat form
+
+
+
